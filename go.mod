@@ -22,7 +22,7 @@ require (
 	github.com/gopxl/beep/v2 v2.1.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/markusmobius/go-dateparser v1.2.3
-	github.com/maruel/natural v1.1.1
+	github.com/maruel/natural v1.3.0
 	github.com/sebdah/goldie/v2 v2.8.0
 	github.com/spf13/viper v1.20.1
 	github.com/stretchr/testify v1.10.0
