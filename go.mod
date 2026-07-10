@@ -2,15 +2,13 @@ module github.com/ayoisaiah/focus
 
 go 1.24.2
 
-toolchain go1.24.1
-
 require (
 	github.com/adrg/xdg v0.5.3
 	github.com/faiface/beep v1.1.0
 	github.com/gen2brain/beeep v0.0.0-20240516210008-9c006672e7f4
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/pterm/pterm v0.12.80
-	github.com/urfave/cli/v2 v2.27.6
+	github.com/urfave/cli/v2 v2.27.7
 	go.etcd.io/bbolt v1.4.0
 	golang.org/x/sys v0.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -29,7 +27,6 @@ require (
 	github.com/sebdah/goldie/v2 v2.5.5
 	github.com/spf13/viper v1.20.1
 	github.com/stretchr/testify v1.10.0
-	github.com/tj/assert v0.0.3
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
@@ -39,8 +36,6 @@ require (
 	atomicgo.dev/schedule v0.1.0 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/br0xen/boltbrowser v0.0.0-20230531143731-fcc13603daaf // indirect
-	github.com/br0xen/termbox-util v0.0.0-20170904143325-de1d4c83380e // indirect
 	github.com/catppuccin/go v0.3.0 // indirect
 	github.com/charmbracelet/colorprofile v0.3.0 // indirect
 	github.com/charmbracelet/harmonica v0.2.0 // indirect
@@ -49,7 +44,7 @@ require (
 	github.com/charmbracelet/x/exp/strings v0.0.0-20250331185309-2c96f2c3a435 // indirect
 	github.com/charmbracelet/x/term v0.2.1 // indirect
 	github.com/containerd/console v1.0.4 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.6 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/oto/v3 v3.3.3 // indirect
 	github.com/ebitengine/purego v0.8.2 // indirect
@@ -76,11 +71,9 @@ require (
 	github.com/mewkiz/pkg v0.0.0-20250313101258-36943cedaadb // indirect
 	github.com/mewpkg/term v0.0.0-20241026122259-37a80af23985 // indirect
 	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/muesli/ansi v0.0.0-20230316100256-276c6243b2f6 // indirect
 	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/termenv v0.16.0 // indirect
-	github.com/nsf/termbox-go v1.1.1 // indirect
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
