@@ -21,7 +21,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/gopxl/beep/v2 v2.1.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/markusmobius/go-dateparser v1.2.3
+	github.com/markusmobius/go-dateparser v1.2.4
 	github.com/maruel/natural v1.3.0
 	github.com/sebdah/goldie/v2 v2.8.0
 	github.com/spf13/viper v1.20.1
@@ -51,7 +51,6 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/oto/v3 v3.3.3 // indirect
 	github.com/ebitengine/purego v0.8.2 // indirect
-	github.com/elliotchance/pie/v2 v2.9.1 // indirect
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-toast/toast v0.0.0-20190211030409-01e6764cf0a4 // indirect
