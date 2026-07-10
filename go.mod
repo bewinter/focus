@@ -2,8 +2,6 @@ module github.com/ayoisaiah/focus
 
 go 1.24.2
 
-toolchain go1.24.1
-
 require (
 	github.com/adrg/xdg v0.5.3
 	github.com/faiface/beep v1.1.0
@@ -12,14 +10,14 @@ require (
 	github.com/pterm/pterm v0.12.80
 	github.com/urfave/cli/v2 v2.27.6
 	go.etcd.io/bbolt v1.4.0
-	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 require (
-	github.com/charmbracelet/bubbles v0.20.0
-	github.com/charmbracelet/bubbletea v1.3.4
-	github.com/charmbracelet/huh v0.6.0
+	github.com/charmbracelet/bubbles v0.21.1-0.20250623103423-23b8fd6302d7
+	github.com/charmbracelet/bubbletea v1.3.6
+	github.com/charmbracelet/huh v1.0.0
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/gopxl/beep/v2 v2.1.1
@@ -29,7 +27,6 @@ require (
 	github.com/sebdah/goldie/v2 v2.5.5
 	github.com/spf13/viper v1.20.1
 	github.com/stretchr/testify v1.10.0
-	github.com/tj/assert v0.0.3
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
@@ -39,12 +36,10 @@ require (
 	atomicgo.dev/schedule v0.1.0 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/br0xen/boltbrowser v0.0.0-20230531143731-fcc13603daaf // indirect
-	github.com/br0xen/termbox-util v0.0.0-20170904143325-de1d4c83380e // indirect
 	github.com/catppuccin/go v0.3.0 // indirect
 	github.com/charmbracelet/colorprofile v0.3.0 // indirect
 	github.com/charmbracelet/harmonica v0.2.0 // indirect
-	github.com/charmbracelet/x/ansi v0.8.0 // indirect
+	github.com/charmbracelet/x/ansi v0.9.3 // indirect
 	github.com/charmbracelet/x/cellbuf v0.0.13 // indirect
 	github.com/charmbracelet/x/exp/strings v0.0.0-20250331185309-2c96f2c3a435 // indirect
 	github.com/charmbracelet/x/term v0.2.1 // indirect
@@ -76,11 +71,9 @@ require (
 	github.com/mewkiz/pkg v0.0.0-20250313101258-36943cedaadb // indirect
 	github.com/mewpkg/term v0.0.0-20241026122259-37a80af23985 // indirect
 	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
-	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/muesli/ansi v0.0.0-20230316100256-276c6243b2f6 // indirect
 	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/termenv v0.16.0 // indirect
-	github.com/nsf/termbox-go v1.1.1 // indirect
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -105,7 +98,7 @@ require (
 	golang.org/x/exp/shiny v0.0.0-20250305212735-054e65f0b394 // indirect
 	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/mobile v0.0.0-20250305212854-3a7bc9f8a4de // indirect
-	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 )
