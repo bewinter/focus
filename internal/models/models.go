@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/ayoisaiah/focus/internal/config"
+	"github.com/bewinter/focus/internal/config"
 )
 
 type SessionTimeline struct {

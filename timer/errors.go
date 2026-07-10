@@ -1,6 +1,6 @@
 package timer
 
-import "github.com/ayoisaiah/focus/internal/apperr"
+import "github.com/bewinter/focus/internal/apperr"
 
 var (
 	errInvalidSoundFormat = &apperr.Error{

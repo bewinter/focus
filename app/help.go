@@ -43,10 +43,10 @@ func helpText() string {
 	docs := fmt.Sprintf(
 		"%s\n\t\t%s\n\n",
 		pterm.Yellow("DOCUMENTATION"),
-		"https://github.com/ayoisaiah/focus/wiki",
+		"https://github.com/bewinter/focus/wiki",
 	)
 
-	website := pterm.Yellow("WEBSITE") + "\n\t\thttps://github.com/ayoisaiah/focus\n"
+	website := pterm.Yellow("WEBSITE") + "\n\t\thttps://github.com/bewinter/focus\n"
 
 	return description + usage + author + version + commands + options + env + docs + website
 }

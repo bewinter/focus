@@ -8,7 +8,7 @@ import (
 	"github.com/charmbracelet/huh"
 	"github.com/gopxl/beep/v2/speaker"
 
-	"github.com/ayoisaiah/focus/internal/config"
+	"github.com/bewinter/focus/internal/config"
 )
 
 // handleTimerTick processes timer tick events.

@@ -67,9 +67,3 @@ jobs:
           echo "${{ github.event.client_payload.ref }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Trigger NPM Publish
-        uses: peter-evans/repository-dispatch@v2
-        if: github.event.client_payload.ref_type == 'tag'
-        with:
-          event-type: release-focus-npm

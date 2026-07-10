@@ -10,7 +10,7 @@ import (
 	"github.com/pterm/pterm"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ayoisaiah/focus/internal/timeutil"
+	"github.com/bewinter/focus/internal/timeutil"
 )
 
 // FilterConfig represents a configuration to filter sessions

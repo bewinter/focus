@@ -8,7 +8,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ayoisaiah/focus/internal/timeutil"
+	"github.com/bewinter/focus/internal/timeutil"
 )
 
 // CLIOptions represents command-line configuration options.

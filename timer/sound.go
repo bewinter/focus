@@ -13,7 +13,7 @@ import (
 	"github.com/gopxl/beep/v2/vorbis"
 	"github.com/gopxl/beep/v2/wav"
 
-	"github.com/ayoisaiah/focus/internal/config"
+	"github.com/bewinter/focus/internal/config"
 )
 
 // DefaultBufferSize controls audio buffering.

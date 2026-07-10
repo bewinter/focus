@@ -6,9 +6,9 @@ import (
 
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/ayoisaiah/focus/app"
-	_ "github.com/ayoisaiah/focus/internal/static"
-	"github.com/ayoisaiah/focus/report"
+	"github.com/bewinter/focus/app"
+	_ "github.com/bewinter/focus/internal/static"
+	"github.com/bewinter/focus/report"
 )
 
 func initLogger() {

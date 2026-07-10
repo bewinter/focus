@@ -3,7 +3,7 @@ package store
 import (
 	"time"
 
-	"github.com/ayoisaiah/focus/internal/models"
+	"github.com/bewinter/focus/internal/models"
 )
 
 // DB is the database storage interface.

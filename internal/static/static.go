@@ -11,8 +11,8 @@ import (
 
 	"github.com/adrg/xdg"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/report"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/report"
 )
 
 const (

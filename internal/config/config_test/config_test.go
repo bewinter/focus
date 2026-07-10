@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/testutil"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/testutil"
 )
 
 type TestCase struct {

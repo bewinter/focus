@@ -11,8 +11,8 @@ import (
 	"github.com/adrg/xdg"
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/ayoisaiah/focus/internal/pathutil"
-	"github.com/ayoisaiah/focus/report"
+	"github.com/bewinter/focus/internal/pathutil"
+	"github.com/bewinter/focus/report"
 )
 
 type (

@@ -29,10 +29,10 @@ import (
 	bolt "go.etcd.io/bbolt"
 	bolterr "go.etcd.io/bbolt/errors"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/models"
-	"github.com/ayoisaiah/focus/report"
-	"github.com/ayoisaiah/focus/store"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/models"
+	"github.com/bewinter/focus/report"
+	"github.com/bewinter/focus/store"
 )
 
 type (

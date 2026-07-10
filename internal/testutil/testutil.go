@@ -11,7 +11,7 @@ import (
 
 	"github.com/sebdah/goldie/v2"
 
-	"github.com/ayoisaiah/focus/internal/osutil"
+	"github.com/bewinter/focus/internal/osutil"
 )
 
 type GoldenTest interface {

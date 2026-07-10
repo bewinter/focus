@@ -4,7 +4,7 @@ import (
 	"github.com/pterm/pterm"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ayoisaiah/focus/internal/config"
+	"github.com/bewinter/focus/internal/config"
 )
 
 // disableStyling disables all styling provided by pterm.

@@ -7,7 +7,7 @@ import (
 
 	"go.etcd.io/bbolt"
 
-	"github.com/ayoisaiah/focus/internal/models"
+	"github.com/bewinter/focus/internal/models"
 )
 
 // Change session key to RFC3339Nano and update duration to nanoseconds.

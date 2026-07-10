@@ -105,7 +105,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/ayoisaiah/focus
+        - github.com/bewinter/focus
   exclusions:
     generated: lax
     paths:

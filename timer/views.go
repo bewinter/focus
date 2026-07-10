@@ -6,8 +6,8 @@ import (
 
 	"github.com/charmbracelet/bubbles/key"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/timeutil"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/timeutil"
 )
 
 // formatTimeRemaining returns the remaining time formatted as "MM:SS".

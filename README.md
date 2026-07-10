@@ -63,23 +63,6 @@ Debian users can install it through the command below:
 sudo apt install libasound2-dev
 ```
 
-### 📦 NPM Package
-
-You can also install Focus through its
-[NPM package](https://www.npmjs.com/package/@ayoisaiah/focus):
-
-With `npm`:
-
-```bash
-npm i @ayoisaiah/focus -g
-```
-
-With `yarn`:
-
-```bash
-yarn global add @ayoisaiah/focus
-```
-
 Other installation methods are
 [available here](https://github.com/ayoisaiah/focus/wiki/Installation/).
 

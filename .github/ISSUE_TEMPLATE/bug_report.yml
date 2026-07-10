@@ -6,7 +6,7 @@ body:
       value: |
         Thank you for submitting a bug report for Focus. To assist us in replicating and resolving your issue, kindly fill the following fields as per their descriptions.
 
-        Before proceeding, we recommend checking the [list of open bug reports](https://github.com/ayoisaiah/focus/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc) to confirm that your particular problem has not already been reported.
+        Before proceeding, we recommend checking the [list of open bug reports](https://github.com/bewinter/focus/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc) to confirm that your particular problem has not already been reported.
 
         If you do not find your issue listed, please proceed with your bug report. Your contribution is highly appreciated!
 
@@ -22,7 +22,7 @@ body:
     id: focus-version
     attributes:
       label: What version of Focus are you using?
-      description: Enter the output of `focus --version`. Please ensure you're using the [latest stable release](https://github.com/ayoisaiah/focus/releases/latest) before filing a bug report.
+      description: Enter the output of `focus --version`. Please ensure you're using the [latest stable release](https://github.com/bewinter/focus/releases/latest) before filing a bug report.
       placeholder: ex. focus v1.4.2
     validations:
       required: true
@@ -31,7 +31,7 @@ body:
     id: install-method
     attributes:
       label: How did you install Focus?
-      placeholder: ex. Go, Arch AUR, GitHub binary, NPM
+      placeholder: ex. Go, Arch AUR, GitHub binary
     validations:
       required: false
 

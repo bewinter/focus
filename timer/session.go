@@ -3,9 +3,9 @@ package timer
 import (
 	"time"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/models"
-	"github.com/ayoisaiah/focus/internal/timeutil"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/models"
+	"github.com/bewinter/focus/internal/timeutil"
 )
 
 type (

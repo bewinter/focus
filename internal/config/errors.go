@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/ayoisaiah/focus/internal/apperr"
+	"github.com/bewinter/focus/internal/apperr"
 )
 
 var (

@@ -10,11 +10,11 @@ import (
 	"github.com/pterm/pterm"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/models"
-	"github.com/ayoisaiah/focus/stats"
-	"github.com/ayoisaiah/focus/store"
-	"github.com/ayoisaiah/focus/timer"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/models"
+	"github.com/bewinter/focus/stats"
+	"github.com/bewinter/focus/store"
+	"github.com/bewinter/focus/timer"
 )
 
 const (
@@ -146,7 +146,7 @@ func beforeAction(ctx *cli.Context) error {
 	cli.VersionPrinter = func(c *cli.Context) {
 		oldVersionPrinter(c)
 		fmt.Printf(
-			"https://github.com/ayoisaiah/focus/releases/%s\n",
+			"https://github.com/bewinter/focus/releases/%s\n",
 			c.App.Version,
 		)
 	}

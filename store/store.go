@@ -12,9 +12,9 @@ import (
 	bolt "go.etcd.io/bbolt"
 	bolterr "go.etcd.io/bbolt/errors"
 
-	"github.com/ayoisaiah/focus/internal/config"
-	"github.com/ayoisaiah/focus/internal/models"
-	"github.com/ayoisaiah/focus/internal/timeutil"
+	"github.com/bewinter/focus/internal/config"
+	"github.com/bewinter/focus/internal/models"
+	"github.com/bewinter/focus/internal/timeutil"
 )
 
 // Client is a BoltDB database client.
