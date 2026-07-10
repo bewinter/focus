@@ -10,7 +10,7 @@
     "@ayoisaiah/go-npm": "^0.1.13",
     "@easepick/bundle": "^1.2.1",
     "apexcharts": "^3.43.0",
-    "esbuild": "^0.19.4"
+    "esbuild": "^0.28.1"
   },
   "scripts": {
     "postinstall": "go-npm install",
