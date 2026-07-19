@@ -88,35 +88,35 @@ macOS.
 Here's the default configuration settings:
 
 ```yml
-work_mins: 25 # work session length
+work:
+  duration: 25m # work session length
+  message: Focus on your task # shown in the terminal and notification
+  sound: loud_bell # notification sound
 
-work_msg: Focus on your task # work session message (shown in terminal and notification)
+short_break:
+  duration: 5m # short break length
+  message: Take a breather # shown in the terminal and notification
+  sound: bell # notification sound
 
-short_break_mins: 5 # short break session length
+long_break:
+  duration: 15m # long break length
+  message: Take a long break # shown in the terminal and notification
+  sound: bell # notification sound
 
-short_break_msg: Take a breather # short break session message (shown in terminal and notification)
+settings:
+  ambient_sound: "" # name of ambient sound to play
+  auto_start_break: true # automatically start the next break session
+  auto_start_work: false # automatically start the next work session
+  cmd: "" # execute an arbitrary command after each session
+  long_break_interval: 4 # work sessions before a long break
+  sound_on_break: false # play ambient sound during break sessions
+  strict: false # prevent resuming a paused work session
 
-long_break_mins: 15 # long break session length
+display:
+  dark_theme: true # use colours befitting a dark background
 
-long_break_msg: Take a long break # long break session message (shown in terminal and notification)
-
-long_break_interval: 4 # number of sessions before long break
-
-notify: true # show desktop notifications
-
-auto_start_work: false # Automatically start the next work session
-
-auto_start_break: true # Automatically start the next break session
-
-24hr_clock: false # Show time in 24 hour format
-
-sound: '' # name of ambient sound to play
-
-sound_on_break: false # play ambient sound during break sessions
-
-dark_theme: true # use colours befitting a dark background
-
-session_cmd: '' # execute an arbitrary command after each session
+notifications:
+  enabled: true # show desktop notifications
 ```
 
 If you specify a command-line argument while running focus, it will override the
@@ -129,34 +129,34 @@ Focus has 3 types of sessions: work, short break, and long break.
 ### 💼 Work sessions
 
 - Set to 25 minutes length by default. Use the `--work` or `-w` option to change
-  the length, or change `work_mins` in the `config.yml` file.
+  the length, or change `work.duration` in the `config.yml` file.
 - Message displayed in the terminal and desktop notification can be changed
-  using `work_msg`.
+  using `work.message`.
 - You can pause a work session by pressing `Ctrl-C`. Use `focus resume` to
   continue from where you stopped.
 - The `focus resume` command supports the `--sound`, `--sound-on-break`, and
   `--disable-notification` flags.
-- If `auto_start_work` is `false`, you will be prompted to start each work
-  session manually. Otherwise if set to `true`, it will start without your
+- If `settings.auto_start_work` is `false`, you will be prompted to start each
+  work session manually. Otherwise if set to `true`, it will start without your
   intervention.
 - The maximum number of work sessions can be set using the `--max-sessions` or
   `-max` option. After that number is reached, focus will exit.
 - Use the `--long-break-interval` or `-int` option to set the number of work
-  sessions before a long break, or change `long_break_interval` in your
+  sessions before a long break, or change `settings.long_break_interval` in your
   `config.yml`.
 
 ### 😎 Break sessions
 
 - Short break is 5 minutes by default. Use the `--short-break` or `-s` option to
-  change the length, or set`short_break_mins` in the `config.yml` file.
+  change the length, or set `short_break.duration` in the `config.yml` file.
 - Long break is 15 minutes by default. Use the `--long-break` or `-l` option to
-  change the length, or set `long_break_mins` in the `config.yml` file.
+  change the length, or set `long_break.duration` in the `config.yml` file.
 - Message displayed in the terminal and desktop notification can be changed
-  using `short_break_msg` and `long_break_msg`.
+  using `short_break.message` and `long_break.message`.
 - Pressing `Ctrl-C` during a break session will interrupt it. Run `focus resume`
   to skip to the next work session.
-- If `auto_start_break` is `false`, you will be prompted to start each break
-  session manually. Otherwise if set to `true`, it will start without your
+- If `settings.auto_start_break` is `false`, you will be prompted to start each
+  break session manually. Otherwise if set to `true`, it will start without your
   intervention.
 
 ## Tagging sessions
@@ -177,16 +177,16 @@ focus --tag 'side-project,focus'
 
 ![Focus notification](https://ik.imagekit.io/turnupdev/focus-notify_igz_8z0Jnp.png)
 
-Notifications are turned on by default. Set `notify` to `false` in your config
-file, or use the `--disable-notification` flag if you don't want notifications
-once a session ends.
+Notifications are turned on by default. Set `notifications.enabled` to `false`
+in your config file, or use the `--disable-notification` flag if you don't want
+notifications once a session ends.
 
 ## 🔊 Ambient sounds
 
 Focus provides six ambient sounds by default: `coffee_shop`, `playground`,
 `wind`, `rain`, `summer_night`, and `fireplace`. You can play a sound using the
-`--sound` option, or set a default sound in your config file through the `sound`
-key.
+`--sound` option, or set a default sound in your config file through the
+`settings.ambient_sound` key.
 
 ```bash
 focus --sound 'coffee_shop'
@@ -199,8 +199,8 @@ OGG, and WAV) to the appropriate directory for your operating system:
 - **Windows**: `%LOCALAPPDATA\focus\static`
 - **macOS**: `~/Library/Application Support/focus/static`
 
-Afterwards, specify the name of the file in the `sound` key or `--sound` option.
-**Note that custom sounds must include the file extension**.
+Afterwards, specify the name of the file in the `settings.ambient_sound` key or
+`--sound` option. **Note that custom sounds must include the file extension**.
 
 ```bash
 focus --sound 'university.mp3'
@@ -211,8 +211,9 @@ focus --sound 'stadium_noise.flac'
 
 By default, ambient sounds are played only during work sessions. They are paused
 during break sessions, and resumed again in the next work session. If you'd like
-to retain the ambient sound during a break session, set the `sound_on_break`
-config option to `true`, or use the `--sound-on-break` or `-sob` flag.
+to retain the ambient sound during a break session, set
+`settings.sound_on_break` to `true`, or use the `--sound-on-break` or `-sob`
+flag.
 
 You can also disable sounds when starting or resuming a session by setting
 `--sound` to `off`:
