@@ -1,3 +1,10 @@
+## 1.5.0 (2026-07-19)
+
+Internal:
+
+- Lots of updates, reanimation after a couple of years of sleep
+- Dependabotification
+
 ## 1.4.2 (2023-11-25)
 
 Internal:
