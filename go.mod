@@ -1,6 +1,6 @@
 module github.com/bewinter/focus
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/adrg/xdg v0.5.3
@@ -10,7 +10,7 @@ require (
 	github.com/pterm/pterm v0.12.83
 	github.com/urfave/cli/v2 v2.27.7
 	go.etcd.io/bbolt v1.5.0
-	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 )
 
 require (
@@ -20,7 +20,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/gopxl/beep/v2 v2.1.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/markusmobius/go-dateparser v1.2.4
+	github.com/markusmobius/go-dateparser v1.4.7
 	github.com/maruel/natural v1.3.0
 	github.com/sebdah/goldie/v2 v2.8.0
 	github.com/spf13/viper v1.21.0
@@ -55,18 +55,16 @@ require (
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
 	github.com/gookit/color v1.6.1 // indirect
-	github.com/hablullah/go-hijri v1.0.2 // indirect
-	github.com/hablullah/go-juliandays v1.0.0 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.4 // indirect
 	github.com/hajimehoshi/oto v1.0.2 // indirect
 	github.com/icza/bitio v1.1.0 // indirect
 	github.com/jackmordaunt/icns/v3 v3.0.1 // indirect
-	github.com/jalaali/go-jalaali v0.0.0-20250521085720-bf793ab67800 // indirect
 	github.com/jfreymuth/oggvorbis v1.0.5 // indirect
 	github.com/jfreymuth/vorbis v1.0.2 // indirect
 	github.com/lithammer/fuzzysearch v1.1.8 // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect
-	github.com/mattn/go-isatty v0.0.22 // indirect
+	github.com/markusmobius/go-dateutil/v2 v2.9.1 // indirect
+	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.24 // indirect
 	github.com/mewkiz/flac v1.0.13 // indirect
@@ -97,10 +95,9 @@ require (
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	github.com/xrash/smetrics v0.0.0-20250705151800-55b8f293f342 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
 	golang.org/x/exp/shiny v0.0.0-20260709172345-9ea1abe57597 // indirect
 	golang.org/x/image v0.44.0 // indirect
 	golang.org/x/mobile v0.0.0-20260709172247-6129f5bee9d5 // indirect
 	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 )
