@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/adrg/xdg v0.5.3
 	github.com/faiface/beep v1.1.0
-	github.com/gen2brain/beeep v0.11.2
+	github.com/gen2brain/beeep v0.11.3
 	github.com/godbus/dbus/v5 v5.2.2 // indirect
 	github.com/pterm/pterm v0.12.83
 	github.com/urfave/cli/v2 v2.27.7
